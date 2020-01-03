@@ -27,6 +27,7 @@ input[type="password"] {
     padding: 10px;
     box-sizing: border-box;
     outline: none;
+    margin-top: 10px;
 }
 
 input[type="text"]:focus,
@@ -45,7 +46,7 @@ input[type="submit"] {
     font-size: 20px;
     color: white;
     padding: 15px 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -61,4 +62,41 @@ input[type="submit"]:focus {
 
 input[type="submit"]:hover {
     background-color: #37b93d;
+}
+
+/* placeholders */
+
+input::-webkit-input-placeholder {
+    color: #999999;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #428c42;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #999999;
+}
+
+input:focus:-moz-placeholder {
+    color: #428c42;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: #999999;
+}
+
+input:focus::-moz-placeholder {
+    color: #428c42;
+}
+
+/* IE 10 */
+input:-ms-input-placeholder {
+    color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+    color: #428c42;
 }
