@@ -1,4 +1,4 @@
-# Photo Gallery
+# CSS Login Form
 
 > An example of styling Input Fields in HTML5 using a lot of different effects in CSS3.
 
